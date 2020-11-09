@@ -11,7 +11,7 @@
             <h1 class="mb-4 mt-2">All Products</h1>
             <div class="row">
                 <div class="col">
-                    <a href="/create-product-view" class="btn btn-warning mb-5">Create new product</a>
+                    <a href="create-product-view" class="btn btn-warning mb-5">Create new product</a>
                 </div>
             </div>
             <?php 
