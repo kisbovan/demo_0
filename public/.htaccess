@@ -1,0 +1,5 @@
+<Directory "${HEROKU_APP_DIR}/views">
+    AllowOverride All
+</Directory>
+
+DirectoryIndex index.php
