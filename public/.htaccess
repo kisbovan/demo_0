@@ -1,0 +1,3 @@
+<Directory "views/">
+    Allow from all
+</Directory>
