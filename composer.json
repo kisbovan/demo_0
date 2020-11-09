@@ -1,6 +1,7 @@
 {
     "require": {
-        "vlucas/phpdotenv": "^5.2"
+        "vlucas/phpdotenv": "^5.2",
+        "symfony/apache-pack": "^1.0"
     },
     "autoload": {
         "psr-4": {
