@@ -5,8 +5,10 @@ require 'vendor/autoload.php';
 use Dotenv\Dotenv;
 use App\System\DBConnection;
 
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+if (file_exists(__DIR__ . '/.env')) {
+  $dotenv = Dotenv::createImmutable(__DIR__);
+  $dotenv->load();
+}
 
 $db = (new DBConnection())->getConnection();
 
